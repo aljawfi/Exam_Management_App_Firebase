@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="50dp"
+    android:background="@drawable/sa"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Information"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="email"
+            android:id="@+id/textViewUserEmail"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:id="@+id/textViewUserName"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Program"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:id="@+id/textViewProgram"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Year"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:id="@+id/textViewYear"
+            />
+
+
+        <Button
+            android:layout_marginTop="200dp"
+            android:layout_width="150dp"
+            android:layout_marginLeft="110dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonUpdateInfo"
+            android:text="Update Info"/>
+        <Button
+            android:layout_marginTop="2dp"
+            android:layout_width="150dp"
+            android:layout_marginLeft="110dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonFillForm"
+            android:text="Fill Form"/>
+
+        <Button
+            android:layout_marginTop="2dp"
+            android:layout_width="150dp"
+            android:layout_marginLeft="110dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonViewForm"
+            android:text="Form And Seat"/>
+
+        <Button
+            android:layout_marginTop="2dp"
+            android:layout_width="150dp"
+            android:layout_marginLeft="110dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonViewResult"
+            android:text="View Result"/>
+        <Button
+            android:layout_marginTop="2dp"
+            android:layout_width="150dp"
+            android:layout_marginLeft="110dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonLogout"
+            android:text="Logout"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
