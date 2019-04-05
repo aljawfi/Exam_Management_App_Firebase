@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="50dp"
+    android:background="@drawable/sa"
+    tools:context=".FormFill">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextName"
+            android:hint="Name"
+            android:inputType="text"
+            android:textAlignment="center"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextRoll"
+            android:hint="Roll Number"
+            android:inputType="text"
+            android:textAlignment="center"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextC1"
+            android:hint="Course 1"
+            android:inputType="text"
+            android:textAlignment="center"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextC2"
+            android:hint="Course 2"
+            android:inputType="text"
+            android:textAlignment="center"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextC3"
+            android:hint="Course 3"
+            android:inputType="text"
+            android:textAlignment="center"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_marginLeft="115dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSubmit"
+            android:textAlignment="center"
+            android:text="Submit"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Available Courses"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textAlignment="center"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ListViewCourse"
+            >
+        </ListView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
